@@ -1,22 +1,16 @@
-const rl = require('./line-reader.js');
+const readline = require('readline');
 const converter = require('./converter.js');
 
-var inputNumber = rl.askInput("Please Input Number: ")
-
 //Initialize readline
-// const rl = readline.createInterface({
-//     input: process.stdin,
-//     output: process.stdout
-//   });
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
 
-//Input Product ID
-// rl.question('Input Amount: ', function (val) {
-//     var result = converter.numberToWords(val); 
-//     console.log(result)
+rl.question('Input Number: ', function (val) {
+    var result = converter.numberToWords(val); 
+    console.log("Result: " + result)
 
-//     //Close readlinee
-//     rl.close();
-// });
-
-
-
+    //Close readline
+    rl.close();
+});
