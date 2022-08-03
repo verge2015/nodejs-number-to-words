@@ -1,7 +1,7 @@
 # nodejs-number-to-words
 This is a simple program that you will input the number and convert it to words.
 
-## Version of npm and NodeJS
+## Version of NPM and NodeJS
 ```bash
  NodeJS v14.19.1
  npm 6.14.16
