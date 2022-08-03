@@ -1,5 +1,5 @@
 const readline = require('readline');
-const converter = require('./converter.js');
+const converter = require('./modules/converter.js');
 
 //Initialize readline
 const rl = readline.createInterface({
