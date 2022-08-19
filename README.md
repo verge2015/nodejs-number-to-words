@@ -30,7 +30,7 @@ This is a simple NodeJS program that you can input a number in console then it w
  node index.js
 ```
 
-# Output
+## Output
 ```bash
 Input Number: 1222
 Result: one thousand, two hundred twenty-two
