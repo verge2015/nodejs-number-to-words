@@ -1,5 +1,5 @@
 # nodejs-number-to-words
-This is a simple program that you will input the number and convert it to words.
+This is a simple NodeJS program that you can input a number then this app automatically convert it into words.
 
 ## Version of NPM and NodeJS
 ```bash
